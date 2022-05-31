@@ -49,6 +49,5 @@ module.exports = {
         fs.writeFileSync('./papelera.json',JSON.stringify(nuevaPapelera,null,3));
         return this.papelera()
 
-
-    }
+    }  
 }
